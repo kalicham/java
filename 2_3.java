@@ -4,14 +4,13 @@ to meters, and displays the result. One foot is 0.305 meter. Here is a sample ru
 */
 import java.util.Scanner;
 
-public class Exercise7 {
+public class Exercise_02_07 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		System.out.print("Enter a number of minutes: ");
 		double minutes = input.nextDouble();
-		double days = minutes % 525600 % 1440;
-		double years = minutes / 525600;
-		System.out.println(minutes + " minutes is approximately " + years
-		 + " years and " + days + "days");
+		double days = ;
+		double years = ;
+		System.out.println(minutes + " minutes " + meters + " meters");
 	}
 }
