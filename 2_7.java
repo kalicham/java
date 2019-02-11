@@ -8,9 +8,9 @@ public class Exercise7 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		System.out.print("Enter a number of minutes: ");
-		double minutes = input.nextDouble();
-		double days = minutes % 525600 % 1440;
-		double years = minutes / 525600;
+		int minutes = input.nextInt();
+		int days = minutes % 525600 % 1440;
+		int years = minutes / 525600;
 		System.out.println(minutes + " minutes is approximately " + years
 		 + " years and " + days + "days");
 	}
