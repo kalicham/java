@@ -1,16 +1,17 @@
 /*
-(Convert feet into meters) Write a program that reads a number in feet, converts it
-to meters, and displays the result. One foot is 0.305 meter. Here is a sample run:
+(Find the number of years) Write a program that prompts the user to enter the
+minutes (e.g., 1 billion), and displays the number of years and days for the minutes.
+For simplicity, assume a year has 365 days. Here is a sample run:
 */
 import java.util.Scanner;
 
-public class Lesson2_7 {
+public class Main {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		System.out.print("Enter a number of minutes: ");
 		int minutes = input.nextInt();
-		int days = minutes % 24;
-		int years = minutes / 24 / 30 / 12;
+	    int years = minutes / 525600;
+		int days = (minutes % 525600) / 1440;
 		System.out.println(minutes + " minutes is approximately " + years
 		 + " years and " + days + " days");
 	}
