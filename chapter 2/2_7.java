@@ -9,8 +9,8 @@ public class Lesson2_7 {
 		Scanner input = new Scanner(System.in);
 		System.out.print("Enter a number of minutes: ");
 		int minutes = input.nextInt();
-		int days = minutes % 525600 % 1440;
-		int years = minutes / 525600;
+		int days = minutes % 24;
+		int years = minutes / 24 / 30 / 12;
 		System.out.println(minutes + " minutes is approximately " + years
 		 + " years and " + days + " days");
 	}
