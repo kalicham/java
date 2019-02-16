@@ -15,7 +15,7 @@ Note that you can use Math.pow(x, 0.5) to compute 2x. Here are some
 sample runs.*/
 import java.util.Scanner;
 public class Main {
-	public static void main(String[] args);
+	public static void main(String[] args);{
 	Scanner input = new Scanner(System.in);
 	System.out.print("Enter a, b, с : ");
 	double a = input.nextDouble();
@@ -34,4 +34,5 @@ public class Main {
 		System.out.println("The equation has one root " + root1 );
 	else 
 		System.out.println("The equation has no real roots ");
+}
 }

@@ -9,7 +9,7 @@ cover all cases.) Here are two sample runs.
 */
 import java.util.Scanner;
 
-public class Exercise_03_23 {
+public class Main {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 
