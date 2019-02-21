@@ -10,5 +10,6 @@ public class Main{
 	}
 	System.out.println("Largest integer n such that n^3 is less than 12,000: " 
 	+ n);
+	System.out.println("1+1");
 	}
 }
