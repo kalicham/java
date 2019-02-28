@@ -19,13 +19,13 @@ public class Main {
 
 		System.out.print(month + " " + year + " has ");
 		
-		if ( month.equals("Jan") || month.equals("Mar") || 
-			  month.equals("May") || month.equals("Jul") ||
-			  month.equals("Aug") || month.equals("Oct") ||
-			  month.equals("Dec"))
+		if ( month == "Jan" || month == "Mar" || 
+			  month == "May" || month == "Jul" ||
+			  month == "Aug" || month == "Oct" ||
+			  month == "Dec")
 			System.out.println(31 + " days");
-		else if (month.equals("Apr") || month.equals("Jun") || 
-			month.equals("Sep") || month.equals("Nov"))
+		else if (month == "Apr" || month == "Jun" || 
+			month == "Sep" || month == "Nov")
 			System.out.println(30 + " days");
 		else
 			System.out.println(((leapYear) ? 29 : 28) + " days");	

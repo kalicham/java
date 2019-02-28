@@ -14,12 +14,13 @@ public class Main{
 		int n = input.nextInt();
 
 		matrix(n);
-	public static void matrix(int n){
+	}
+    public static void matrix(int n){
 		for(int rows = 0; rows < n; rows ++){
 			for (int rows1 = 0; rows1 < n; rows1 ++){
-				System.out.print((int)(Math.random()*2));
+				System.out.print((int)(Math.random()*2) + " ");
 			}
+		System.out.print("\n");
 		}
-	}
 	}
 }

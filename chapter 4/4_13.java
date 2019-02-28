@@ -10,13 +10,13 @@ public class Main{
 
 		if (Character.isLetter(ch))
 		{
-			swich(Character.toUpperCase(ch))
+			swich(Character.isLetter(ch))
 			{
-				case 'A' || 'a':
-				case 'E' || 'e':
-				case 'I' || 'i':
-				case '0' || 'o':
-				case 'U' || 'u':
+				case 'A' :
+				case 'E' :
+				case 'I' :
+				case '0' :
+				case 'U' :
 				System.out.println(ch + " is a vowel"); break;
 				default : System.out.println(ch + " is a consonant"); 
 			}
