@@ -16,7 +16,7 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 
-		System.out.print("Enter the nubmer of students: ");
+		System.out.print("Enter the number of students: ");
 		int[] scores = new int[input.nextInt()];
 		char[] grades = new char[scores.length];
 
