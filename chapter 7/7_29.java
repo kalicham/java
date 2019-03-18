@@ -24,7 +24,6 @@ public class Main {
 		}
 	}
 
-	/** sum computes the sum of cards picked */
 	public static int sum(int[] deck) {
 		int sum = 0;
 		for (int i = 0; i < deck.length; i++) {

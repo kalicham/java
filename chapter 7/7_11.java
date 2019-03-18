@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in); // Create a Scanner
-		double[] numbers = new double[10]; // Create an array of lentgh 10
+		Scanner input = new Scanner(System.in); 
+		double[] numbers = new double[10]; 
 
 		System.out.print("Enter ten numbers: ");
 		for (int i = 0; i < numbers.length; i++)
